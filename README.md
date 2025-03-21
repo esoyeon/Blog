@@ -5,3 +5,5 @@
 
 **디자인 출처**
 - 이 블로그의 디자인은 [WENIVLOG](https://weniv.github.io/weniv_blog/) 프로젝트(주식회사 위니브 제공)를 참고하여 제작되었습니다.
+  - 매뉴얼 페이지: https://blog.weniv.co.kr/
+  - 블로그 페이지(예시): https://weniv.github.io/weniv_blog/
