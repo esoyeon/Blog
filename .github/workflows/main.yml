@@ -10,12 +10,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Configure Git for long paths
+      run: |
+        git config --system core.longpaths true
+        
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
     
-    - name: Configure Git for long paths
-      run: |
-        git config --global core.longpaths true
-        
     # 다른 steps... 
