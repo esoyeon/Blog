@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Configure Git for long paths
       run: |
-        git config --system core.longpaths true
+        git config --global core.longpaths true
         
     - uses: actions/checkout@v4
       with:
